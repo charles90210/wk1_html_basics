@@ -1,0 +1,48 @@
+body {
+  background-color: #ccedd7;}
+  /* using color hex code */
+
+h1 {
+  color: red;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+h3 {
+  color: green;
+  font-family: sans-serif;
+}
+
+section > h2 {
+  color: gray;
+}
+
+#p_test {
+  color: orange;
+}
+
+#m_exp {
+  font-size: 12pt;
+  font-family: georgia;
+  font-weight: bolder;
+}
+
+table {
+ width: 500px;  
+ border: 5px solid red;
+ border-collapse: collapse;/*gets rid of the double borders so you have one border*/}
+
+tr {
+  height: 40px;
+  }
+
+td {/* this styling formats the text in your columns */
+border: 2px solid red;
+font-size: 12pt;
+font-family: georgia; /* really good looking font. Part of the web safe fonts*/
+text-align: center;
+width: 100px;}
+
+#tr-hd {
+  border-color: red;
+}

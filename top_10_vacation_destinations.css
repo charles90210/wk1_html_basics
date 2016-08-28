@@ -1,0 +1,52 @@
+h1 {
+  text-align: center;
+}
+
+a:link {
+  color:black;
+  background-color:transparent;
+  text-decoration:none}
+
+  a:visited {
+    color:blue;
+    background-color:transparent;
+    text-decoration:none}
+
+    a:hover {
+      color:red;
+      background-color:transparent; text-decoration:underline}
+
+    #hov:hover {
+        color:red;
+      }
+
+footer {
+  text-align: center;
+  font-weight: bold;
+}
+
+img {
+  width: 1280px;
+  height: 500px;
+}
+
+table {
+   width: 1220px;
+   border: 5px solid black;
+   border-collapse: collapse;/*gets rid of the double borders so you have one border*/}
+
+caption {
+  font-weight: bold;
+}
+
+td{
+  border: 2px solid black;
+  font-size: 12pt;
+  font-family: georgia; /* really good looking font. Part of the web safe fonts*/
+  text-align: center;
+  width: 100px;
+}
+
+body {
+  background-color: #96fdf7;
+}
